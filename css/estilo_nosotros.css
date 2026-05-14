@@ -1,0 +1,50 @@
+:root{
+   
+
+background-color: rgb(196, 201, 206);
+    font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+margin: auto;
+padding: 1rem;
+max-width: 1400px;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #003366;
+}
+header{
+    color: white;
+    background-color: #201f1f;
+}
+section{
+    background-color: #cbd9c2;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
