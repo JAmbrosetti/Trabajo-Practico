@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    max-width: 1280px;
+}
+
 :root {
     --color-primario: black;
     --color-acento: green;
