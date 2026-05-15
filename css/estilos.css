@@ -1,7 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color-primario: black;
+    --color-acento: green;
+}
+
 html {
     font-size: 62.5%;
     font-family: Arial;
     background-color: grey;
+}
+
+nav a {
+    color: var(--color-acento);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: lightgreen;
 }
 
 .menu {
@@ -31,14 +51,14 @@ html {
 
 .titulo-programas {
     font-size:2rem;
-    color:black;
+    color: var(--color-primario);
     font-style: italic;
     font-family: "Hammersmith One";
 }
 
 .parrafo-index-presentacion, .parrafo-index-programas {
     font-size: 1.6rem;
-    color: black;
+    color: var(--color-primario);
     font-style: normal;
     font-family: "Alegreya";
 }
