@@ -1,13 +1,24 @@
-:root{
-   
 
-background-color: rgb(196, 201, 206);
-    font-family: sans-serif;
-}
-*{
+* {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-family: var(--fuente-poppins);
+}
+:root {
+    --color-fondo-temporal:rgb(213, 222, 231);
+    --color-fondo-nav: #201f1f;
+    --color-verde-section: #cbd9c2;
+    --color-titulo: #003366;
+    --fuente-poppins: "Poppins", sans-serif;
+}
+html{
+    font-family: var(--fuente-poppins);
+    background-color: var(--color-fondo-temporal);
+}
+.titulos{
+font-weight: 700;
+color: var(--color-titulo);
 }
 body{
 font-family: sans-serif;
@@ -16,10 +27,10 @@ font-weight: 400;
 margin: auto;
 padding: 1rem;
 max-width: 1400px;
-
 }
-h1, h2, h3, h4, h5, h6 {
-    color: #003366;
+p{
+margin-bottom: 20px;
+margin-top: 20px;
 }
 header{
     color: white;
@@ -28,26 +39,6 @@ header{
 section{
     background-color: #cbd9c2;
 }
-h1{
-    font-family: sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-}
-h2{
-    font-family: sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-}
-h3{
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-}
-h4{
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-}
 form{
     background-color: #b9dda1;;
     padding: 20px;
@@ -55,4 +46,16 @@ form{
 }
 div{
     margin-bottom: 10px;
+}
+.nav ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: white;
 }
