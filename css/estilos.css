@@ -1,38 +1,77 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    max-width: 1280px;
-}
-
-:root {
-    --color-primario: black;
-    --color-acento: green;
-}
-
-html {
-    font-size: 62.5%;
-    font-family: Arial;
-    background-color: grey;
-}
-
-nav a {
-    color: var(--color-acento);
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: lightgreen;
-}
-
-.menu {
-    font-size: 2rem;
-    font-family: "Oxygen", sans-serif;
-    font-weight: 300;
-}
+/*reset*/
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        
+    }
+/*variables*/
+    :root {
+        --color-fondo-temporal:rgb(213, 222, 231);
+        --color-fondo-nav: #201f1f;
+        --color-verde-section: #cbd9c2;
+        --color-titulo: #003366;
+        --fuente-poppins: "Poppins", sans-serif;
+        --color-primario: black;
+        --color-acento: green;
+    }
+/*base*/
+    body {
+        max-width: 1280px; 
+        margin: 0 auto; 
+        padding: 1rem; 
+    }
+    html {
+        font-size: 62.5%;
+        font-family: Arial;
+        background-color: grey;
+    }
+    main { 
+    max-width: 1100px; 
+    margin: 0 auto; 
+    padding: 1.5rem; 
+    } 
+    div{
+    margin-bottom: 10px;
+    }
+    section { 
+    padding: 1rem; 
+    margin-bottom: 1.5rem; 
+    }
+    p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+/*header*/
+    header{
+        position: sticky;
+    top: 0;
+    z-index: 1000;
+        color: white;
+        background-color: #201f1f;
+        padding: 1rem; 
+    }
+    .nav ul{
+        display: flex;
+        gap: 1.5rem;
+        list-style: none;
+    }
+    nav a {
+        color: var(--color-acento);
+        text-decoration: none;
+    }
+    nav a:hover {
+        color: lightgreen;
+    }
+    .menu {
+        font-size: 2rem;
+        font-family: "Oxygen", sans-serif;
+        font-weight: 300;
+    }
+/*footer*/
+    footer { 
+    padding: 1rem; 
+    } 
 
 #programas {
     background-color: rgba(255,255,255,0.5);
@@ -65,4 +104,39 @@ nav a:hover {
     color: var(--color-primario);
     font-style: normal;
     font-family: "Alegreya";
+}
+
+/*forms*/
+input{
+width: 100%; 
+padding: 0.5rem; 
+border: 1px solid #ccc; 
+} 
+textarea { 
+width: 100%; 
+padding: 0.5rem; 
+border: 1px solid #ccc; 
+} 
+
+button { 
+padding: 0.5rem 1rem; 
+cursor: pointer; 
+}
+
+/*nosotros estilos*/
+.nosotros-titulos{
+font-weight: 700;
+color: var(--color-titulo);
+}
+.nosotros{
+    font-family: var(--fuente-poppins);
+    background-color: var(--color-fondo-temporal);
+    font-size: 16px;
+    font-weight: 400;
+    margin: auto;
+    padding: 1rem;
+    max-width: 1400px;
+}
+.nosotros-section{
+    background-color: #cbd9c2;
 }
