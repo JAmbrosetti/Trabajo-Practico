@@ -1,3 +1,7 @@
+/* Bootstrap - personalizaciones */ 
+
+
+
 /*reset*/
     * {
         box-sizing: border-box;
@@ -45,8 +49,8 @@
 /*header*/
     header{
         position: sticky;
-    top: 0;
-    z-index: 1000;
+        top: 0;
+        z-index: 1000;
         color: white;
         background-color: #201f1f;
         padding: 1rem; 
@@ -107,6 +111,11 @@
 }
 
 /*forms*/
+form{
+    background-color: #b9dda1;;
+    padding: 20px;
+    width: 400px;
+}
 input{
 width: 100%; 
 padding: 0.5rem; 
@@ -117,12 +126,10 @@ width: 100%;
 padding: 0.5rem; 
 border: 1px solid #ccc; 
 } 
-
 button { 
 padding: 0.5rem 1rem; 
 cursor: pointer; 
 }
-
 /*nosotros estilos*/
 .nosotros-titulos{
 font-weight: 700;
