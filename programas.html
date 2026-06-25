@@ -4,71 +4,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
     <title>Programas APAER</title>
+    <link rel="icon" href="./imgs/apaer_logo.png" type="image/png">
 </head>
 
-<body>
-    <header>
+<body class="nosotros">
+    <div class="container">
+        <div class="col-md-12">
+            <h1>Asociación Civil de Padrinos de Alumnos y Escuelas Rurales</h1>
+            <header>
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 
-        <img src="./imgs/apaer_logo.png" title="Apaer"
-            alt="El logo perteneciente a APAER, en la parte superior aparece la palabra 'apaer' escrita en minúscula, en la parte inferior, dentro de un cuadro simple dos niños dibujados de manera sencilla y una escuela de fondo con una bandera argentina en el mástil."
-            height="20px" width="auto">
-    </header>
-    <nav>
-        <ul class="menu">
-            <li><a href="./index.html" target="_self">Inicio</a></li>
-            <li><a href="./nosotros.html" target="_self">Nosotros</a></li>
-            <li><a href="./programas.html" target="_self">Programas</a></li>
-            <li><a href="./contacto.html" target="_self">Contacto</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h1>Nuestras Iniciativas</h1>
-            <div>
-                <h2>Padrinazgo de Escuelas</h2>
-                <img src="./imgs/padrinazgo_index.jpg" title="padrinazgo de escuelas"
-                    alt="Se puede ver un cartel que dice 'Bienvenida Madrina patricia' y una escuela rural de fondo."
-                    height="300px" width="auto">
-                <p>Generamos nexos directos entre padrinos y comunidades educativas para cubrir necesidades básicas.</p>
-            </div>
-            <div>
-                <h2>Becas Estudiantiles</h2>
-                <img src="./imgs/becas_index.jpg" title="becas estudiantiles"
-                    alt="Se puede ver una niña sonriendo a la cámara mientras estudia. Se ven niños estudiando de fondo."
-                    height="300px" width="auto">
-                <p>Acompañamos a los alumnos con becas que son fundamentales para mejorar sus oportunidades
-                    socioeducativas y los ayudan a finalizar sus estudios obligatorios.</p>
-            </div>
-            <div>
-                <h2>Proyectos Edilicios/Productivos</h2>
-                <img src="./imgs/proyecto_edilicio_index.jpeg" title="Proyectos edilicios/Productivos"
-                    alt="Se pueden ver a unos niños en un huerto." height="300px" width="auto">
-                <p>Construimos, reparamos y ampliamos escuelas y sanitarios. Desarrollamos proyectos de acceso al agua y
-                    microemprendimientos productivos como huertas y panaderías.</p>
-            </div>
-            <div>
-                <h2>Refuerzo a Comedores</h2>
-                <img src="./imgs/comedores_index.jpg" title="Refuerzo a comedores"
-                    alt="Se pueden ver a un montón de niños juntos en mesas alargadas comiendo mientras adultos le sirven la comida a otros niños."
-                    height="300px" width="auto">
-                <p>Garantizamos nutrición e higiene en las escuelas más necesitadas.</p>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <a href="https://www.instagram.com/apaer" rel="noopener noreferrer"><img src="./imgs/Instagram_icon.png"
-                height="20px" width="auto" title="Instagram de APAER" alt="logo de Instagram"></img></a>
-        <a href="https://www.facebook.com/apaer.org" rel="noopener noreferrer"><img src="./imgs/Facebook_Logo_2023.png"
-                height="20px" width="auto" title="Facebook de APAER" alt="logo de Facebook"></img></a>
-        <a href="https://www.youtube.com/@apaerong" rel="noopener noreferrer"><img src="./imgs/Youtube_logo.png"
-                height="20px" width="auto" title="Canal de YouTube de APAER" alt="logo de Youtube"></img></a>
-        <a href="mailto:info@apaer.org.ar" rel="noopener noreferrer"><img src="./imgs/Email_icon.png" height="20px"
-                width="auto" title="Envíe un correo electrónico a APAER" alt="logo de correo electrónico"></img></a>
-        <a href="https://www.google.com/url?q=https%3A%2F%2Fwa.me%2F5491125555469%3Ftext%3DHola%252C%2520quisiera%2520hacer%2520una%2520consulta&sa=D&sntz=1&usg=AOvVaw3YjfMYjySzVDqwXN8ao3Yy"
-            rel="noopener noreferrer"><img src="./imgs/WhatsApp_icon.png" height="20px" width="auto"
-                title="Envíe un mensaje de Whatsapp al APAER" alt="logo de whatsapp"></img></a>
-    </footer>
+                    <div class="container d-flex justify-content-between align-items-center">
+
+                        <a class="navbar-brand" href="./index.html" class="d-flex align-items-center text-decoration-none">
+
+                            <img src="./imgs/apaer_logo.png" height="40" title="APAER Logo"
+                                alt="El logo perteneciente a APAER">
+
+                            <span class="text-white ms-2">APAER 2026</span>
+
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav d-flex flex-row gap-4 ms-auto">
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="./index.html">Inicio</a>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="./programas.html">Programas</a>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="./contacto.html">Contacto</a>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </nav>
+
+            </header>
+
+            <main>
+                <section>
+                    <h1>Nuestras Iniciativas</h1>
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card text-bg-success rounded-3 h-100">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h2>Padrinazgo de Escuelas</h2>
+                                    </div>
+                                    <img src="./imgs/padrinazgo_index.jpg" title="padrinazgo de escuelas"
+                                        alt="Se puede ver un cartel que dice 'Bienvenida Madrina patricia' y una escuela rural de fondo."
+                                        class="card-img-top" >
+                                    <p>Generamos nexos directos entre padrinos y comunidades educativas para cubrir
+                                        necesidades
+                                        básicas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-bg-success rounded-3 h-100">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h2>Becas Estudiantiles</h2>
+                                    </div>
+                                    <img src="./imgs/becas_index.jpg" title="becas estudiantiles"
+                                        alt="Se puede ver una niña sonriendo a la cámara mientras estudia. Se ven niños estudiando de fondo."
+                                        class="card-img-top" >
+                                    <p>Acompañamos a los alumnos con becas que son fundamentales para mejorar sus
+                                        oportunidades
+                                        socioeducativas y los ayudan a finalizar sus estudios obligatorios.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-bg-success rounded-3 h-100">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h2>Proyectos Edilicios/Productivos</h2>
+                                    </div>
+                                    <img src="./imgs/proyecto_edilicio_index.jpeg"
+                                        title="Proyectos edilicios/Productivos"
+                                        alt="Se pueden ver a unos niños en un huerto." class="card-img-top" >
+                                    <p>Construimos, reparamos y ampliamos escuelas y sanitarios. Desarrollamos proyectos
+                                        de acceso
+                                        al agua y
+                                        microemprendimientos productivos como huertas y panaderías.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-bg-success rounded-3 h-100">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h2>Refuerzo a Comedores</h2>
+                                    </div>
+                                    <img class="card-img-top" src="./imgs/comedores_index.jpg" title="Refuerzo a comedores"
+                                        alt="Se pueden ver a un montón de niños juntos en mesas alargadas comiendo mientras adultos le sirven la comida a otros niños."
+                                        >
+                                    <p>Garantizamos nutrición e higiene en las escuelas más necesitadas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <H4>Nuestros contactos</H4>
+            <a href="https://www.instagram.com/apaer" rel="noopener noreferrer" target="_blank"><img
+                    src="./imgs/Instagram_icon.png" height="20" width="20" title="Instagram de APAER"
+                    alt="logo de Instagram"></a>
+            <a href="https://www.facebook.com/apaer.org" rel="noopener noreferrer" target="_blank"><img
+                    src="./imgs/Facebook_Logo_2023.png" height="20" width="20" title="Facebook de APAER"
+                    alt="logo de Facebook"></a>
+            <a href="https://www.youtube.com/@apaerong" rel="noopener noreferrer" target="_blank"><img
+                    src="./imgs/Youtube_logo.png" height="20" width="20" title="Canal de YouTube de APAER"
+                    alt="logo de Youtube"></a>
+            <a href="mailto:info@apaer.org.ar" rel="noopener noreferrer" target="_blank"><img
+                    src="./imgs/Email_icon.png" height="20" width="20" title="Envíe un correo electrónico a APAER"
+                    alt="logo de correo electrónico"></a>
+            <a href="https://wa.me/5491125555469?text=Hola,%20quisiera%20hacer%20una%20consulta."
+                rel="noopener noreferrer" target="_blank"><img src="./imgs/WhatsApp_icon.png" height="20" width="20"
+                    title="Envíe un mensaje de Whatsapp al APAER" alt="logo de whatsapp"></a>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
