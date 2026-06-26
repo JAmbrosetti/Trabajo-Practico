@@ -20,7 +20,7 @@ boton.addEventListener("click", () => {
 
  document.querySelector("h1").classList.toggle("modooscuro");
 
- document.getElementById("iniciativas").classList.toggle("modooscuro");
+ document.querySelector("section").classList.toggle("modooscuro");
 
  /*cambia el color de fondo de las cards de bootstrap*/
  document.body.querySelectorAll(".card").forEach((card) => {

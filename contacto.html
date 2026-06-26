@@ -4,22 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilo_nosotros.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Programas APAER</title>
+    <link rel="icon" href="./imgs/apaer_logo.png" type="image/png">
     <title>Contacto</title>
 </head>
 
 <body>
-    <header>
-        <p>Asociación Civil de Padrinos de Alumnos y Escuelas Rurales</p>
-        <nav>
-            <ul>
-                <li><a href="./index.html" target="_self">Inicio</a></li>
-                <li><a href="./nosotros.html" target="_self">Nosotros</a></li>
-                <li><a href="./programas.html" target="_self">Programas</a></li>
-                <li><a href="./contacto.html" target="_self">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+            <header>
+                <nav class="navbar navbar-expand-md navbar-dark">
+
+                    <div class="container d-flex justify-content-between align-items-center">
+
+                        <a class="navbar-brand" href="./index.html" class="d-flex align-items-center text-decoration-none">
+
+                            <img src="./imgs/apaer_logo.png" height="40" title="APAER Logo"
+                                alt="El logo perteneciente a APAER">
+
+                            <span class="text-white ms-2">APAER 2026</span>
+
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav d-flex flex-row gap-4 ms-auto">
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="./index.html">Inicio</a>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="./programas.html">Programas</a>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="./contacto.html">Contacto</a>
+
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-outline-success" id="btn-modo-oscuro"><img src="imgs/dark_mode_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="Modo Oscuro" id="imgBoton"></button>
+                        </div>
+                    </div>
+
+                </nav>
+
+            </header>
 
     <main>
         <h1>Contacto</h1>
@@ -80,6 +123,8 @@
             rel="noopener noreferrer"><img src="./imgs/WhatsApp_icon.png" height="20px" width="auto"
                 title="Envíe un mensaje de Whatsapp al APAER" alt="logo de whatsapp"></img></a>
     </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
 </body>
 
 </html>

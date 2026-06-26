@@ -37,7 +37,7 @@ h1.modooscuro {
     font-weight: 700;
     color: var(--color-titulo);
 }
-#iniciativas.modooscuro {
+section.modooscuro {
     background-color: var(--color-verde-section);
     color: var(--color-primario);
 }
