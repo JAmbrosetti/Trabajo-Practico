@@ -12,7 +12,7 @@
 
 /*variables*/
 :root {
-    --color-fondo-temporal: rgb(213, 222, 231);
+    --color-fondo-temporal: #d5dee7;
     --color-fondo-nav: #201f1f;
     --color-verde-section: #cbd9c2;
     --color-titulo: #003366;
@@ -20,6 +20,32 @@
     --color-primario: black;
     --color-acento: green;
 }
+/*modo oscuro*/
+.modooscuro {
+    --color-fondo-temporal: ##8AA3BC;
+    --color-fondo-nav: #201f1f;
+    --color-verde-section: #455E49;
+    --color-titulo: #007AF5;
+    --fuente-poppins: "Poppins", sans-serif;
+    --color-primario: rgb(255, 255, 255);
+    --color-acento: #0c7410;
+}
+body.modooscuro {
+    background-color: #1a1a1a;
+}
+h1.modooscuro {
+    font-weight: 700;
+    color: var(--color-titulo);
+}
+#iniciativas.modooscuro {
+    background-color: var(--color-verde-section);
+    color: var(--color-primario);
+}
+#btn-modo-oscuro.oculto {
+    display: none;
+
+}
+
 
 /*base*/
 body {
@@ -51,7 +77,7 @@ div {
 section {
     padding: 1rem;
     margin-bottom: 1.5rem;
-    background-color: #cbd9c2;
+    background-color: var(--color-verde-section);
 }
 
 p {
@@ -64,6 +90,10 @@ h1 {
     font-weight: 700;
     color: var(--color-titulo);
 
+}
+h4 {
+    font-weight: 700;
+    color: var(--color-titulo);
 }
 
 /*header*/
