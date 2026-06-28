@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -12,43 +14,58 @@
     <title>APAER 2026 - Nosotros</title>
     <link rel="icon" href="./imgs/apaer_logo.png" type="image/png">
 </head>
-
+<script src="js/main.js"></script>
 <body class="nosotros">
-    <div class="container">
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid d-flex justify-content-between align-items-center h-100">
+            <a class="navbar-brand d-flex align-items-center text-decoration-none" href="./index.html">
+                <img src="./imgs/apaer_logo.png" height="40" title="APAER Logo" alt="El logo perteneciente a APAER">
+                <span class="text-white ms-2">APAER 2026</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex flex-row gap-4 ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./programas.html">Programas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-outline-success" id="btn-modo-oscuro">
+                            <img src="imgs/dark_mode_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="Modo Oscuro" id="imgBoton">
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    <div class="container mt-4">
         <div class="col-md-12">
             <h1 class="nosotros-titulos">Asociación Civil de Padrinos de Alumnos y Escuelas Rurales</h1>
-            <header>
-                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                    <div class="container d-flex justify-content-between align-items-center">
-                        <a href="./index.html" class="d-flex align-items-center text-decoration-none">
-                            <img src="./imgs/apaer_logo.png" height="40" title="APAER Logo"
-                                alt="El logo perteneciente a APAER">
-                            <span class="text-white ms-2">APAER 2026</span>
-                        </a>
-                        <ul class="navbar-nav d-flex flex-row gap-4">
-                            <li class="nav-item">
-                                <a class="nav-link" href="./index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./programas.html">Programas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
+            <main>
+                </main>
+        </div>
+    </div>
             <main>
                 <section class="nosotros-section">
-                    <h2>Qué es APAER</h2>
+                    <h2 class="nosotros-subtitulos">Qué es APAER</h2>
                     <p>Somos una Asociación Civil que trabaja hace 44 años por una mejor educación rural.
                         Llegamos a escuelas alejadas, muchas sin agua potable ni electricidad, para que los
                         alumnos completen su educación y se desarrollen en su comunidad. </p>
-                    <h3>Historia de APAER</h3>
+                    <h3 class="nosotros-subtitulos">Historia de APAER</h3>
                     <p>APAER nació en 1982 por iniciativa de Noemí Delellis de Arbetman, en respuesta a los pedidos de
                         ayuda de
                         directores de escuelas rurales. Fue una acción impulsada desde la ciudadanía que dio origen a
@@ -67,7 +84,7 @@
                 </section>
                 <hr>
                 <section class="nosotros-section">
-                    <h3>Los orígenes de APAER: un sueño que nació de la solidaridad</h3>
+                    <h3 class="nosotros-titulos">Los orígenes de APAER: un sueño que nació de la solidaridad</h3>
                     <p>En 1982, Noemí Arbetman, profesora de yoga de Villa Devoto, leyó un artículo en una revista sobre
                         la
                         niñez carenciada. Conmovida, decidió reunir a sus alumnas y proponerles ayudar a los chicos del
@@ -87,7 +104,7 @@
                         ni bancos. Si llovía, llovía también en el aula. Fue ese impacto el que encendió el compromiso
                         que dio
                         origen a una red solidaria.
-                    <h3>
+                    <h3 class="nosotros-titulos">
                         El inicio del padrinazgo
                     </h3>
                     <p>
@@ -107,7 +124,7 @@
                         personas con
                         la causa.
                     </p>
-                    <h3>
+                    <h3 class="nosotros-titulos">
                         Expansión y presencia en medios
                     </h3>
                     <p>
@@ -128,7 +145,7 @@
                         Siemens. Otras
                         construcciones y mejoras continuaron en distintas provincias.
                     </p>
-                    <h3>Primeras cifras significativas</h3>
+                    <h3 class="nosotros-titulos">Primeras cifras significativas</h3>
                     <p>
                         A principios de los años 90, el impacto de la red ya era inmenso. APAER había conectado a más de
                         5.000
@@ -140,7 +157,7 @@
                         sigue
                         trabajando incansablemente hasta hoy por una educación más justa y digna en zonas rurales.
                     </p>
-                    <h3>La historia detrás de nuestra sede</h3>
+                    <h3 class="nosotros-titulos">La historia detrás de nuestra sede</h3>
                     <p>
                         Los inicios de APAER estuvieron marcados por reuniones llenas de entusiasmo y compromiso,
                         llevadas a
@@ -158,7 +175,7 @@
                 </section>
                 <hr>
                 <section class="nosotros-section">
-                    <h3>El contexto rural</h3>
+                    <h3 class="nosotros-titulos">El contexto rural</h3>
                     <p>Muchas de estas escuelas están ubicadas a más de 10 km de centros urbanos, en zonas de difícil
                         acceso y
                         sin servicios esenciales como agua potable, electricidad o sanitarios. Suelen tener entre 10 y
@@ -170,7 +187,7 @@
                         menudo, un solo docente está a cargo de todos los grados, asumiendo un rol clave tanto en lo
                         pedagógico
                         como en lo comunitario. </p>
-                    <h3>Desafíos y Logros de la Educación Rural en Argentina</h3>
+                    <h3 class="nosotros-titulos">Desafíos y Logros de la Educación Rural en Argentina</h3>
                     <p>Desde nuestra fundación en 1982, el compromiso de APAER ha sido acortar la brecha educativa en el
                         campo.
                         Sin embargo, en estas cuatro décadas, el escenario ha dejado de ser uniforme para convertirse en
@@ -178,7 +195,7 @@
                         mosaico de realidades diversas. Argentina no es una sola ruralidad, y entender esa complejidad
                         es lo que
                         nos permite intervenir donde más se hace necesario.</p>
-                    <h3>Un mapa de desafíos heterogéneos según la geografía</h3>
+                    <h3 class="nosotros-titulos">Un mapa de desafíos heterogéneos según la geografía</h3>
                     <p>El campo que vio nacer a APAER ha mutado de forma distinta según la región. Mientras que hace 40
                         años la
                         realidad era más similar entre provincias, hoy enfrentamos contrastes marcados:</p>
@@ -203,7 +220,7 @@
 
                 </section>
                 <section class="nosotros-section">
-                    <h3>APAER: El puente que une cada realidad</h3>
+                    <h3 class="nosotros-titulos">APAER: El puente que une cada realidad</h3>
                     <p>Hoy, conectados con más de 1.500 escuelas, funcionamos como un puente inteligente entre las
                         comunidades y quienes desean ayudar. Aunque el sistema incluye modelos diversos como las
                         Escuelas de Alternancia (EFAs), en APAER centramos nuestra energía en las bases, acompañando
