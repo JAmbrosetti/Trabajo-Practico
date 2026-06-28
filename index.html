@@ -13,25 +13,57 @@
     <link rel="icon" href="./imgs/apaer_logo.png" type="image/png">
 </head>
 
-<body>
+<body class="nosotros">
     <div class="container">
-        <h1 id="titulo-index">Asociación Civil de Padrinos de Alumnos y Escuelas Rurales</h1>
+        <h1>Asociación Civil de Padrinos de Alumnos y Escuelas Rurales</h1>
         <header>
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                <div class="container d-flex justify-content-between align-items-center">
-                    <a href="./index.html" class="d-flex align-items-center text-decoration-none">
-                        <img src="./imgs/apaer_logo.png" height="40" title="APAER Logo" alt="El logo perteneciente a APAER">
-                        <span class="text-white ms-2">APAER 2026</span>
-                    </a>
-                    <ul class="navbar-nav d-flex flex-row gap-4">
-                        <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./programas.html">Programas</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+                <nav class="navbar navbar-expand-md navbar-dark">
+
+                    <div class="container d-flex justify-content-between align-items-center">
+
+                        <a class="navbar-brand" href="./index.html" class="d-flex align-items-center text-decoration-none">
+
+                            <img src="./imgs/apaer_logo.png" height="40" title="APAER Logo"
+                                alt="El logo perteneciente a APAER">
+
+                            <span class="text-white ms-2">APAER 2026</span>
+
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav d-flex flex-row gap-4 ms-auto">
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="./index.html">Inicio</a>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="./programas.html">Programas</a>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="./contacto.html">Contacto</a>
+
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-outline-success" id="btn-modo-oscuro"><img src="imgs/dark_mode_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="Modo Oscuro" id="imgBoton"></button>
+                        </div>
+                    </div>
+
+                </nav>
+
+            </header>
     </div>
     <main>
         <section class="presentacion">
@@ -83,6 +115,7 @@
         </section>
     </main>
     <footer>
+        <h4>Nuestros contactos</h4>
         <a href="https://www.instagram.com/apaer" rel="noopener noreferrer"><img src="./imgs/Instagram_icon.png"
                 height="20" title="Instagram de APAER" alt="logo de Instagram"></a>
         <a href="https://www.facebook.com/apaer.org" rel="noopener noreferrer"><img src="./imgs/Facebook_Logo_2023.png"
@@ -95,6 +128,8 @@
             rel="noopener noreferrer"><img src="./imgs/WhatsApp_icon.png" height="20"
                 title="Envíe un mensaje de Whatsapp al APAER" alt="logo de whatsapp"></a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
