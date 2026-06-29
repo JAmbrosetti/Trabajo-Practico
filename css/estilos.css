@@ -1,6 +1,5 @@
 /* Bootstrap - personalizaciones */
-
-
+/*personalizacion de la navbar de boostrap incluida en la parte de header para mantener un orden */
 
 /*reset*/
 * {
@@ -220,8 +219,6 @@ footer {
         margin-top: 10px;
     }
 }
-
-/* En estilos.css */
 
 #titulo-index {
     font-style: normal;
